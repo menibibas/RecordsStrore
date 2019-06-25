@@ -4,17 +4,20 @@
             <form>
                 <div class="form-group">
                   <label for="email">Email address:</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter email address">
+                  <input type="email" class="form-control" id="email" ng-model="email" placeholder="Enter email address">
+                  <div class="alert alert-danger" role="alert" ng-show="invalidCredentials">
+                    <strong>Invalid credentials</strong> Incorrect email address or password
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="pwd">Password:</label>
-                  <input type="password" class="form-control" id="pwd" placeholder="Enter your password">
+                  <input type="password" class="form-control" id="pwd" ng-model="pwd" placeholder="Enter your password">
                 </div>
                 <div class="form-group form-check">
                   <label class="form-check-label">
                     <input class="form-check-input" type="checkbox"> Remember me
                   </label>
                 </div>
-                <button type="button" class="btn btn-primary btn-block">Sign In</button>
+                <button type="button" class="btn btn-primary btn-block" ng-click="signin()">Sign In</button>
               </form>
 </div>
