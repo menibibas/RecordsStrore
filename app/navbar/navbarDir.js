@@ -1,6 +1,7 @@
 app.directive("recordsNavbar", function () {
 
     return {
-        templateUrl: "app/navbar/navbar.html"
+        templateUrl: "app/navbar/navbar.html",
+        controller: "navbarCtrl"
     }
 })
