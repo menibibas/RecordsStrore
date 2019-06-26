@@ -1,14 +1,17 @@
-app.controller("signinCtrl", function ($scope, $location) {
+app.controller("signinCtrl", function ($scope, $location, userSrv, $log) {
     $scope.invalidCredentials = false;
     $scope.email = "";
     $scope.pwd = "";
 
     $scope.signin = function () {
-        if($scope.email==="menibibas@gmail.com" && $scope.pwd==="1234"){
-            $location.path("/records")
-        } else {
+        
+        userSrv.signin($scope.email, $scope.pwd).then(function (activeUser) {
+            $log.info("successful sign in: " + JSON.stringify(activeUser));
+            $location.path("/records");
+        }, function (err) {
             $scope.invalidCredentials = true;
-        }
+        });
+
     }
-    
+
 })
