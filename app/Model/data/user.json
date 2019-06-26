@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "email": "menibibas@gmail.com",
+        "pwd": "1234",
+        "fullName": "Meni Bibas",
+        "address": "Namir 19, Tel Aviv",
+        "phone": "03-7845147"
+
+    },
+    {
+        "id": 2,
+        "email": "billy@gmail.com",
+        "pwd": "1234",
+        "fullName": "Billy Corgan",
+        "address": "2541 Micigan Ave, Chicago",
+        "phone": "415-4512471"
+
+    },
+    {
+        "id": 3,
+        "email": "edi@hotmail.com",
+        "pwd": "1234",
+        "fullName": "Edi Veder",
+        "address": "2417 Washington st. Seattle",
+        "phone": "574-2136894"
+
+    },
+    {
+        "id": 4,
+        "email": "james@comcast.com",
+        "pwd": "1234",
+        "fullName": "James Iha",
+        "address": "451 Ocean Drive, Miami",
+        "phone": "315-4152741"
+
+    }
+
+]

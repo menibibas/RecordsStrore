@@ -1,4 +1,4 @@
-app.factory("userSrv", function () {
+app.factory("userSrv", function ($q, $http) {
 
     var activeUser = null;
 
@@ -18,12 +18,24 @@ app.factory("userSrv", function () {
 
     function signin(email, pwd) {
         var async = $q.defer();
-        if (email === "menibibas@gmail.com" && pwd === "1234") {
-            activeUser = new User({ id: 1, email: "menibibas@gmail.com", pwd: "1234", fullName: "Meni Bibas", address: "Namir 19, Tel Aviv", phone: "03-7845147" });
-            async.resolve(activeUser);
-        } else {
-            async.reject(401);
-        }
+
+        activeUser = null;
+        $http.get("app/Model/data/user.json").then(function(res) {
+            var users = res.data;
+            for (var i = 0; i < users.length && !activeUser; i++) {
+                if (email === users[i].email && pwd === users[i].pwd) {
+                    activeUser = new User(users[i]);
+                    async.resolve(activeUser);
+                }
+            }
+        
+            if (!activeUser) {
+                async.reject(401);
+            }
+        }, function(err) {
+            async.reject(err);
+        })
+        
         return async.promise;
     }
 
