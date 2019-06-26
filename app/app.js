@@ -10,7 +10,8 @@ app.config(function ($routeProvider) {
         }).when("/signup", {
 
         }).when("/records", {
-
+            templateUrl: "app/records/records.html",
+            controller: "recordsCtrl"
         }).when("/recordsDetails:id", {
 
         })

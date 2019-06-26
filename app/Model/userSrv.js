@@ -39,9 +39,14 @@ app.factory("userSrv", function ($q, $http) {
         return async.promise;
     }
 
+    function signoff() {
+        activeUser = null;
+    }
+
     return {
         isSignedIn: isSignedIn,
-        signin: signin
+        signin: signin,
+        signoff: signoff
     }
 
 });
