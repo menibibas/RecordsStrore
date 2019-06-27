@@ -1,6 +1,31 @@
-<div>
-    <div class="container">
-        <records-navbar></records-navbar>
-  <h1>Records List</h1> 
-</div>
+<div class="container">
+    <records-navbar></records-navbar>
+    <h1 class="header">Records Available</h1>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col" ng-repeat="record in records">
+            <div class="card h-100">
+                <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">{{record.bname}}</h4>
+                    <h6 class="card-title">{{record.aname}}</h6>
+                    <p class="card-text">{{record.desc}}</p>
+                    
+                </div>
+                <div class="card-footer">
+                   <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                   <p class="card-text psize" >{{record.price|currency: "$":2}}</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example" class="page">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
 </div>

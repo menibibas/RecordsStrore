@@ -11,4 +11,43 @@
         /*border: solid;*/
       }
 
+    
+.card-footer {
+    display: flex;
+    justify-content: center;
+    }
  
+.psize {
+    font-size: 1.25em;
+    font-weight: bolder;
+    margin-left: 10px; 
+    
+}
+
+.col {
+    margin-bottom: 30px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.wide {
+    width: 580px;
+}
+
+.small {
+    width: 45px;
+}
+
+.navbar-brand > img {
+
+    width: 100px; 
+}
+
+.header {
+    font-family: 'Monoton', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

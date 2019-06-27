@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1, 
+        "bname": "Smashing Pumpkins",
+        "aname": "Siamese Dream",
+        "desc": "2nd album by the revered band the Smashing Pumpkins",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg",
+        "price": "30"
+       
+    },
+    {
+        "id": 2, 
+        "bname": "Smashing Pumpkins",
+        "aname": "Gish",
+        "desc": "1st album by the revered band the Smashing Pumpkins",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/SmashingPumpkins-Gish.jpg/220px-SmashingPumpkins-Gish.jpg",
+        "price": "25"
+
+    },
+    {
+        "id": 3, 
+        "bname": "Pearl Jam",
+        "aname": "Ten",
+        "desc": "1st album by the revered band Pearl jam",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/PearlJam-Ten2.jpg/220px-PearlJam-Ten2.jpg",
+        "price": "32"
+
+    },
+    {
+        "id": 4, 
+        "bname": "Depeche Mode",
+        "aname": "Music for the Masses",
+        "desc": "is the sixth studio album by English electronic music band Depeche Mode. It was released on 28 September 1987 by Mute Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Depeche_Mode_-_Music_for_the_Masses.png/220px-Depeche_Mode_-_Music_for_the_Masses.png",
+        "price": "20"
+
+    },
+
+    {
+        "id": 5, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+
+    {
+        "id": 6, 
+        "bname": "Pixies",
+        "aname": "Doolittle",
+        "desc": "Doolittle is the second studio album by American alternative rock band Pixies, released in April 1989 on 4AD.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Pixies-Doolittle.jpg/220px-Pixies-Doolittle.jpg",
+        "price": "24"
+
+    }
+    
+]
