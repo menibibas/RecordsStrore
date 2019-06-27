@@ -14,7 +14,9 @@ app.config(function ($routeProvider) {
             controller: "recordsCtrl"
         }).when("/recordsDetails:id", {
 
+        }).when("/shoppingcart", {
+            templateUrl: "app/shoppingcart/shoppingcart.html",
+            controller: "shoppingcartCtrl"
         })
-
 })
 
