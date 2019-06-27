@@ -9,11 +9,23 @@
             <p class="lead">
                 <!-- <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Enter Shop</a> -->
             </p>
-            <div class="search-box">
+            <div class="search">
+      <div class="row">
+        <div class="col-8">
+          <input class="form-control" type="text" placeholder="Enter Record Name or Artist">
+        </div>
+        <div class="col-4">
+          <button class="btn btn-block btn-primary"> Search</button>
+        </div>
+        
+        <!--<input class="form-control">-->
+      </div>
+    </div>
+            <!-- <div class="search-box">
                     <input class="form-control search-input" type="text" placeholder="Enter Record Name or Artist"
-                        ng-model="actorSearchText" ng-change="updateSearchResults()">
+                        ng-model="actorSearchText" ng-change="updateSearchResults()"> -->
                         <!-- <button class="btn btn-outline-success my-2 my-sm-0 midbtn" type="submit">Search</button> -->
-                </div>
+                <!-- </div> -->
             <!-- <div class="search-box">
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control search-input" type="text" placeholder="Search">
@@ -24,7 +36,7 @@
                 <div class="search-results" ng-show="searchResults.length > 0">
                     <ul class="list-group">
                         <a href="#" ng-repeat="result in searchResults" class="list-group-item list-group-item-action"
-                            ng-click="addActor(result)">{{result.name}}</a>
+                            ng-click="addRecord(result)">{{result.name}}</a>
                     </ul>
                 </div>
             </div>

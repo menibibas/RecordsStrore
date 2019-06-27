@@ -1,12 +1,14 @@
-.search-box {
-    text-align: center;
-    
-}
 
 .signin {
     max-width: 550px; 
     margin: auto;
     margin-top: 50px;
     }
+
+    .search {
+        width: 60%;
+        margin: auto;
+        /*border: solid;*/
+      }
 
  

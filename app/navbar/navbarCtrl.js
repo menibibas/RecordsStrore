@@ -4,7 +4,7 @@ app.controller("navbarCtrl", function ($scope, userSrv, $location) {
        return userSrv.isSignedIn();
     }
     $scope.signoff = function() {
-        $scope.signoff();
+        userSrv.signoff();
         $location.path("/");
     }
 })
