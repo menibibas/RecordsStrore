@@ -7,15 +7,15 @@
             <hr class="my-2">
             <p>More info</p>
             <p class="lead">
-                <!-- <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Enter Shop</a> -->
+              <!-- <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Enter Shop</a> -->
             </p>
             <div class="search">
       <div class="row">
         <div class="col-11">
-          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist">
+          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist" ng-model="queryRecord" | filter: filterRecord>
         </div>
         <div class="col-1">
-          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+          <button class="btn btn-primary" ng-click="findRecord()"><i class="fas fa-search"></i></button>
         </div>
         
         <!--<input class="form-control">-->

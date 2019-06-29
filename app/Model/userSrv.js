@@ -43,10 +43,15 @@ app.factory("userSrv", function ($q, $http) {
         activeUser = null;
     }
 
+    function getActiveUser() {
+        return activeUser;
+    }
+
     return {
         isSignedIn: isSignedIn,
         signin: signin,
-        signoff: signoff
+        signoff: signoff,
+        getActiveUser: getActiveUser
     }
 
 });

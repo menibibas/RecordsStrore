@@ -2,7 +2,7 @@
     <records-navbar></records-navbar>
     <h1 class="header">Records Available</h1>
     <div class="row">
-        <div class="col-md-3 col-sm-6 col" ng-repeat="record in records">
+        <div class="col-lg-3 col-md-6 col" ng-repeat="record in records">
             <div class="card h-100">
                 <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">
                 <div class="card-body">
@@ -12,7 +12,7 @@
                     
                 </div>
                 <div class="card-footer">
-                   <a href="#!/shoppingcart" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                   <a href="#!/shoppingcart" class="btn btn-primary" ng-show="isSignedIn()"><i class="fas fa-cart-plus"></i> Buy Now</a>
                    <p class="card-text psize" >{{record.price|currency: "$":2}}</p>
                 </div>
 

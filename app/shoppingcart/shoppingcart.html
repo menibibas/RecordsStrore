@@ -1,6 +1,6 @@
 <div class="container">
   <records-navbar></records-navbar>
-  <h1>Records in cart</h1>
+  <h1 class="header">Records in cart</h1>
   <table class="table table-hover">
     <thead>
       <tr>
@@ -10,27 +10,44 @@
         <th scope="col">Unit Price</th>
         <th scope="col">Qty</th>
         <th scope="col">Sub Total</th>
+        <th scope="col">Remove</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th scope="row">1</th>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg"></td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td><img
+            ng-src="{{record.image}}">
+        </td>
+        <td>Smasing Pumpkins</td>
+        <td>30</td>
+        <td>1</td>
+        <td>30</td>
+        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
+
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg"></td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <td><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
+        </td>
+        <td>Smasing Pumpkins</td>
+        <td>30</td>
+        <td>1</td>
+        <td>30</td>
+        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
       </tr>
       <tr>
-          <th scope="row">3</th>
-          <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg"></td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
+        <th scope="row">3</th>
+        <td><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
+        </td>
+        <td>Smasing Pumpkins</td>
+        <td>30</td>
+        <td>1</td>
+        <td>30</td>
+        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
+      </tr>
       <!-- <tr>
         <th scope="row">3</th>
         <td colspan="3">Larry the Bird</td>
@@ -38,15 +55,25 @@
       </tr> -->
       <tr>
         <th scope="row">4</th>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg"></td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <td><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
+        </td>
+        <td>Smasing Pumpkins</td>
+        <td>30</td>
+        <td>1</td>
+        <td>30</td>
+        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
       </tr>
       <tr>
         <th scope="row">5</th>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg"></td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <td><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
+        </td>
+        <td>Smasing Pumpkins</td>
+        <td>30</td>
+        <td>1</td>
+        <td>30</td>
+        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
       </tr>
     </tbody>
   </table>

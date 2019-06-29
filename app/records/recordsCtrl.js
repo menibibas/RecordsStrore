@@ -22,6 +22,12 @@ app.controller("recordsCtrl", function ($scope, $http) {
     
       })
 
-
+      $scope.isSignedIn = function () {
+        return userSrv.isSignedIn();
+     }
+     $scope.signoff = function() {
+         userSrv.signoff();
+         $location.path("/");
+     }
 
 });
