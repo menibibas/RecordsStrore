@@ -29,7 +29,7 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
 
                 async.resolve(shoppingcarts);
             }, function (err) {
-                $log.error(err);
+                wasEverLoadedFromJSON = false;
                 async.reject(err);
             });
         }
