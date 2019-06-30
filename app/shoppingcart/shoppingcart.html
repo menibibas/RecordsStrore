@@ -15,66 +15,18 @@
     </thead>
     <tbody>
       <tr>
-        <th scope="row">1</th>
+        <th scope="row" ng-repeat="shoppingcart in shoppingcarts"></th>
         <td><img
-            ng-src="{{record.image}}">
+            ng-src="{{shoppingcart.image}}">
         </td>
-        <td>Smasing Pumpkins</td>
-        <td>30</td>
-        <td>1</td>
-        <td>30</td>
+        <td>{{shoppingcart.aname}}</td>
+        <td>{{shoppingcart.price}}</td>
+        <td>{{shoppingcart.qty}}</td>
+        <td>{{shoppingcart.qty*shoppingcart.price}}</td>
         <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
 
       </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td><img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
-        </td>
-        <td>Smasing Pumpkins</td>
-        <td>30</td>
-        <td>1</td>
-        <td>30</td>
-        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td><img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
-        </td>
-        <td>Smasing Pumpkins</td>
-        <td>30</td>
-        <td>1</td>
-        <td>30</td>
-        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
-      </tr>
-      <!-- <tr>
-        <th scope="row">3</th>
-        <td colspan="3">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr> -->
-      <tr>
-        <th scope="row">4</th>
-        <td><img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
-        </td>
-        <td>Smasing Pumpkins</td>
-        <td>30</td>
-        <td>1</td>
-        <td>30</td>
-        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td><img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg">
-        </td>
-        <td>Smasing Pumpkins</td>
-        <td>30</td>
-        <td>1</td>
-        <td>30</td>
-        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
-      </tr>
+            
     </tbody>
   </table>
 </div>

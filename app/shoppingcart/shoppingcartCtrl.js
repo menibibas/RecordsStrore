@@ -1,4 +1,4 @@
-app.controller("shoppingcartCtrl", function ($scope, userSrv, $location) {
+app.controller("shoppingcartCtrl", function ($scope, userSrv, $location, shoppingcartSrv) {
 
     if(!userSrv.isSignedIn()) {
         $location.path("/");
@@ -7,5 +7,10 @@ app.controller("shoppingcartCtrl", function ($scope, userSrv, $location) {
 
 
     $scope.user = userSrv.getActiveUser();
+
+    shoppingcartSrv.getActiveUserShoppingcarts().then(function(shoppingcarts) {
+        $scope.shoppingcarts = shoppingcarts;
+    
+      })
     
 })

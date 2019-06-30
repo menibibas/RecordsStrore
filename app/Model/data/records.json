@@ -54,6 +54,116 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Pixies-Doolittle.jpg/220px-Pixies-Doolittle.jpg",
         "price": "24"
 
+    },
+    {
+        "id": 7, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 8, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 9, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 10, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 11, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 12, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 13, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 14, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 15, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 16, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 17, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
+    },
+    {
+        "id": 18, 
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
+
     }
+
+
     
 ]
