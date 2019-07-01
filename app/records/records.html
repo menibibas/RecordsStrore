@@ -2,6 +2,15 @@
     <records-navbar></records-navbar>
     <h1 class="header">Records Available</h1>
     <div class="row">
+        <div class="col-11">
+          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist" ng-model="queryRecord" ng-show="wasQueryEntered()" | filter: filterRecord>
+        </div>
+        <div class="col-1">
+          <button class="btn btn-primary" ng-show="wasQueryEntered()" ng-click="findRecord()"><i class="fas fa-search"></i></button>
+        </div>
+           
+      </div>
+    <div class="row">
         <div class="col-lg-3 col-md-6 col" ng-repeat="record in records">
             <div class="card h-100">
                 <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">

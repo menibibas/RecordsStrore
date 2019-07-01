@@ -22,6 +22,9 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
     
     //   })
     
+    $scope.wasQueryEntered = function() {
+      return wasQueryEntered() = false;
+    }
       $scope.isSignedIn = function () {
         return userSrv.isSignedIn();
      }
