@@ -54,6 +54,26 @@
 
 
 /* shopping cart data */
+
 tr > td > img {
     width:40px;
+}
+
+h4.ml-auto {
+    width: 45%;
+        
+}
+
+#inlineFormCustomSelect {
+    width: 100px;
+}
+
+.btn-group { 
+    margin-left: 70%;
+    margin-top: 300px; 
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black; 
 }

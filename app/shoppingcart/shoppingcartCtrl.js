@@ -5,12 +5,18 @@ app.controller("shoppingcartCtrl", function ($scope, userSrv, $location, shoppin
         return;
     }
 
-
     $scope.user = userSrv.getActiveUser();
 
-    shoppingcartSrv.getActiveUserShoppingcarts().then(function(shoppingcarts) {
-        $scope.shoppingcarts = shoppingcarts;
+    $scope.shoppingcarts =  shoppingcartSrv.getActiveUserShoppingcarts();
+        
+    $scope.addRecord=function() {
+        $location.path("/records");
+      }
+       
+       $scope.removeItem=function(index) {
+        shoppingcartSrv.removeItem(index);
+      }
+
     
-      })
     
 })

@@ -14,19 +14,31 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row" ng-repeat="shoppingcart in shoppingcarts"></th>
+      <tr ng-repeat="shoppingcart in shoppingcarts">
+        <th scope="row">1</th>
         <td><img
             ng-src="{{shoppingcart.image}}">
         </td>
         <td>{{shoppingcart.aname}}</td>
-        <td>{{shoppingcart.price}}</td>
-        <td>{{shoppingcart.qty}}</td>
-        <td>{{shoppingcart.qty*shoppingcart.price}}</td>
-        <td><i ng-click="mainVm.deleteItem($index)" class="fa fa-times"></i></td>
+        <td>{{shoppingcart.price|currency: "$":2}}</td>
+        <td>
+          <input type="number" ng-model="shoppingcart.qty" placeholder="1" id="inlineFormCustomSelect" min="1" max="20" > 
+        </td>
+        <td>{{shoppingcart.qty*shoppingcart.price|currency: "$":2}}</td>
+        <td><i ng-click="removeItem($index)" class="fa fa-times"></i></td>
 
       </tr>
             
     </tbody>
   </table>
+  <div class="row">
+    <h4 class="ml-auto">Total Price:</h4>
+  </div>
+  <div class="btn-group">
+    
+    <button type="button" class="btn btn-primary" ng-click="addRecord()"><i class="fas fa-cart-plus"></i> Add Record</button>
+  
+    <button type="button" class="btn btn-danger" ng-click="emptyCart()">Empty Cart</button>
+    <button type="button" class="btn btn-primary">Checkout Cart</button>
+  </div>
 </div>
