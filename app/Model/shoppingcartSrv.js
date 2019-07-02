@@ -6,7 +6,7 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
         this.image = record.image;
         this.aname = record.aname;
         this.price= record.price;
-        this.qty = record.qty;
+        this.qty = 1;
     }
 
 
@@ -54,12 +54,25 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
         shoppingcarts.splice(index, 1);
     }
 
-    
+    function emptyCart() {
+        shoppingcarts.length = 0; 
+    }
+
+    var sum = 0;
+    function totalSum() {
+        for(var i=0; i<shoppingcarts.length; i++) {
+            totalSum = sum + (shoppingcarts[i].qty*shoppingcarts[i].price);
+        }
+        alert(totalSum());
+    }
 
     return {
         getActiveUserShoppingcarts: getActiveUserShoppingcarts,
         addItem: addItem,
         removeItem: removeItem,
+        emptyCart: emptyCart,
+        totalSum: totalSum
+
         
     }
 

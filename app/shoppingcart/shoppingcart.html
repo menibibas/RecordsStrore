@@ -22,7 +22,7 @@
         <td>{{shoppingcart.aname}}</td>
         <td>{{shoppingcart.price|currency: "$":2}}</td>
         <td>
-          <input type="number" ng-model="shoppingcart.qty" placeholder="1" id="inlineFormCustomSelect" min="1" max="20" > 
+          <input type="number" ng-model="shoppingcart.qty" placeholder="1" id="inlineFormCustomSelect" min="1" max="20">
         </td>
         <td>{{shoppingcart.qty*shoppingcart.price|currency: "$":2}}</td>
         <td><i ng-click="removeItem($index)" class="fa fa-times"></i></td>
@@ -32,7 +32,7 @@
     </tbody>
   </table>
   <div class="row">
-    <h4 class="ml-auto">Total Price:</h4>
+    <h4 class="ml-auto">Total Price: {{totalSum()}}</h4>
   </div>
   <div class="btn-group">
     

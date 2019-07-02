@@ -17,6 +17,17 @@ app.controller("shoppingcartCtrl", function ($scope, userSrv, $location, shoppin
         shoppingcartSrv.removeItem(index);
       }
 
+      $scope.emptyCart = function() {
+        shoppingcartSrv.emptyCart();
+      }
+
+      $scope.totalSum=function() {
+       return shoppingcartSrv.totalSum();
+        }
+
+        // $scope.emptyCart = function() {
+        //   $scope.shoppingcarts.length = 0;
+        // }; 
     
-    
+        
 })
