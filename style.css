@@ -81,3 +81,7 @@ h4.ml-auto {
 table {
     border: 1px solid black; 
 }
+
+ul > li > img {
+    width: 300px;
+}
