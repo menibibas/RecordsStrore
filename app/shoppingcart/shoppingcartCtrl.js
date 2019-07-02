@@ -25,9 +25,14 @@ app.controller("shoppingcartCtrl", function ($scope, userSrv, $location, shoppin
        return shoppingcartSrv.totalSum();
         }
 
+        $scope.checkout=function() {
+          $location.path("/checkout");
+        }
         // $scope.emptyCart = function() {
         //   $scope.shoppingcarts.length = 0;
         // }; 
+
+       
     
         
 })

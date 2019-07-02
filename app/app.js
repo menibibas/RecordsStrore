@@ -18,6 +18,9 @@ app.config(function ($routeProvider) {
         }).when("/shoppingcart", {
             templateUrl: "app/shoppingcart/shoppingcart.html",
             controller: "shoppingcartCtrl"
+        }).when("/checkout", {
+            templateUrl: "app/checkoutcart/checkoutcart.html",
+            controller: "checkoutcartCtrl"
         })
 })
 

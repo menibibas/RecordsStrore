@@ -55,7 +55,8 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
     }
 
     function emptyCart() {
-        shoppingcarts.length = 0; 
+        shoppingcarts.length = 0;  
+        return totalSum = 0;
     }
 
     var sum = 0;
@@ -63,8 +64,19 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
         for(var i=0; i<shoppingcarts.length; i++) {
             totalSum = sum + (shoppingcarts[i].qty*shoppingcarts[i].price);
         }
-        alert(totalSum());
+        return totalSum;
     }
+        
+    // var sumItems = [];
+    //     function totalSum() {
+    //     for(var i=0; i<shoppingcarts.length; i++) {
+    //     var sumItem = (shoppingcarts[i].qty*shoppingcarts[i].price);
+    //     sumItems.push(sumItem)
+    //     }
+    //     console.log(sumItems);
+
+        
+
 
     return {
         getActiveUserShoppingcarts: getActiveUserShoppingcarts,

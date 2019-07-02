@@ -32,13 +32,13 @@
     </tbody>
   </table>
   <div class="row">
-    <h4 class="ml-auto">Total Price: {{totalSum()}}</h4>
+    <h4 class="ml-auto">Total Price: {{totalSum()|currency: "$":2}}</h4>
   </div>
   <div class="btn-group">
     
     <button type="button" class="btn btn-primary" ng-click="addRecord()"><i class="fas fa-cart-plus"></i> Add Record</button>
   
-    <button type="button" class="btn btn-danger" ng-click="emptyCart()">Empty Cart</button>
-    <button type="button" class="btn btn-primary">Checkout Cart</button>
+    <button type="button" class="btn btn-danger" ng-click="emptyCart()"><i class="fa fa-trash" aria-hidden="true"></i> Empty Cart</button>
+    <button type="button" class="btn btn-success" ng-click="checkout()"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Checkout Cart</button>
   </div>
 </div>
