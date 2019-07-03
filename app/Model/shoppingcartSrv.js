@@ -50,6 +50,11 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
 
     }
 
+    function shoppingLength() {
+        var length = shoppingcarts.length;
+        return length;
+    }
+
     function removeItem(index) {
         shoppingcarts.splice(index, 1);
     }
@@ -59,28 +64,21 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
         return totalSum = 0;
     }
 
-    var sum = 0;
+    
     function totalSum() {
+        var sum = 0;
         for(var i=0; i<shoppingcarts.length; i++) {
-            totalSum = sum + (shoppingcarts[i].qty*shoppingcarts[i].price);
+            sum += (shoppingcarts[i].qty*shoppingcarts[i].price);
         }
-        return totalSum;
+        return sum;
     }
         
-    // var sumItems = [];
-    //     function totalSum() {
-    //     for(var i=0; i<shoppingcarts.length; i++) {
-    //     var sumItem = (shoppingcarts[i].qty*shoppingcarts[i].price);
-    //     sumItems.push(sumItem)
-    //     }
-    //     console.log(sumItems);
-
-        
-
+          
 
     return {
         getActiveUserShoppingcarts: getActiveUserShoppingcarts,
         addItem: addItem,
+        shoppingLength: shoppingLength,
         removeItem: removeItem,
         emptyCart: emptyCart,
         totalSum: totalSum

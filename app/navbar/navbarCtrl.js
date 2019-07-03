@@ -1,4 +1,4 @@
-app.controller("navbarCtrl", function ($scope, userSrv, $location) {
+app.controller("navbarCtrl", function ($scope, userSrv, $location, shoppingcartSrv) {
 
     $scope.isSignedIn = function () {
        return userSrv.isSignedIn();
@@ -7,4 +7,8 @@ app.controller("navbarCtrl", function ($scope, userSrv, $location) {
         userSrv.signoff();
         $location.path("/");
     }
+
+    $scope.shoppingLength=function() {
+      return  shoppingcartSrv.shoppingLength();
+      }
 })

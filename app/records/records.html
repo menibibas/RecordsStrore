@@ -21,7 +21,7 @@
                     
                 </div>
                 <div class="card-footer">
-                   <a href="#!/shoppingcart" class="btn btn-primary" ng-show="isSignedIn()" ng-click="addItem(record)"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                   <a href="#!/records" class="btn btn-primary" ng-show="isSignedIn()" ng-click="addItem(record); shoppingLength()"><i class="fas fa-cart-plus"></i> Buy Now</a>
                    <p class="card-text psize" >{{record.price|currency: "$":2}}</p>
                 </div>
 
