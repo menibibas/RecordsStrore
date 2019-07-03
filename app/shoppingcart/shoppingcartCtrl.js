@@ -32,7 +32,9 @@ app.controller("shoppingcartCtrl", function ($scope, userSrv, $location, shoppin
         //   $scope.shoppingcarts.length = 0;
         // }; 
 
-       
+        $scope.shoppingLength=function() {
+          return  shoppingcartSrv.shoppingLength();
+          }
     
         
 })

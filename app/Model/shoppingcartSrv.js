@@ -54,6 +54,7 @@ app.factory("shoppingcartSrv", function ($q, $http, $log, userSrv, recordSrv) {
         var length = shoppingcarts.length;
         return length;
     }
+    
 
     function removeItem(index) {
         shoppingcarts.splice(index, 1);
