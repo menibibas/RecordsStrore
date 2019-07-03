@@ -31,8 +31,22 @@ app.factory("recordSrv", function ($q, $http, $log, userSrv) {
     return async.promise;
   }
 
+  // function filterRecord() {
+  //   if (record.bname.toLowerCase().includes($scope.queryRecord.toLowerCase()) ||
+  //     record.aname.toLowerCase().includes($scope.queryRecord.toLowerCase())) {
+  //     return $location.path("/records");
+  //   } else {
+  //     return false;
+  //   }
+  // }
+
+    
+
+
+
     return {
-        getRecords: getRecords
+        getRecords: getRecords,
+        // filterRecord: filterRecord
         
     }
 

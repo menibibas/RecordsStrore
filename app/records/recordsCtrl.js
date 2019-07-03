@@ -1,4 +1,4 @@
-app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $location, shoppingcartSrv) {
+app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $location, shoppingcartSrv, $rootScope) {
 
     // function Record(id, bname, aname, desc, image, price) {
     //     this.id = id;
@@ -42,7 +42,17 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
     shoppingcartSrv.addItem(record);
   }
 
- 
+  $rootScope.queryRecord = "";
+  $scope.filterRecord = function () {
+    if (record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
+    record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
+    return $location.path("/records");
+  } else {
+    return false;
+  }
+  }  
+     
+  
       // shoppingcartSrv.addItem(record).then(function(newItem){
       //     $log.info("new item was added to cart: " + JSON.stringify(newItem));
       //     shoppingcartSrv.getActiveUserShoppingcarts().then(function(shoppingcarts) {
