@@ -9,7 +9,7 @@
         width: 60%;
         margin: auto;
         /*border: solid;*/
-      }
+       }
 
     
 .card-footer {
@@ -84,6 +84,12 @@ table {
 
 ul > li > img {
     width: 300px;
+}
+
+.row.search {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px; 
 }
 
 /* record animation */

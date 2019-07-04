@@ -1,6 +1,6 @@
 app.controller("homeCtrl", function ($scope, $http, $location, $rootScope) {
 
-// $rootScope.queryRecord = "";
+$rootScope.queryRecord = "";
 $scope.filterRecord = function() {
     $location.path("/records");
 

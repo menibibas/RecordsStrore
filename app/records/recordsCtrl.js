@@ -22,10 +22,8 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
 
   //   })
 
-  $scope.wasQueryEntered = function () {
-    return false;
-  }
-  $scope.isSignedIn = function () {
+  // $scope.wasQueryEntered =   false;
+   $scope.isSignedIn = function () {
     return userSrv.isSignedIn();
   }
   $scope.signoff = function () {
@@ -47,13 +45,13 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
     
       if ($rootScope.queryRecord.toLowerCase() === $scope.record.aname.toLowerCase() ||
       $rootScope.queryRecord.toLowerCase() === $scope.record.bname.toLowerCase()) {
+        // $scope.wasQueryEntered =   true;
         return record;
       }
       else {
         return false;
       }
- 
-  };
+   };
   //   if (record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
   //   record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
   //   return $location.path("/records");

@@ -1,4 +1,4 @@
-app.controller("navbarCtrl", function ($scope, userSrv, $location, shoppingcartSrv) {
+app.controller("navbarCtrl", function ($scope, userSrv, $location, shoppingcartSrv, $rootScope) {
 
     $scope.isSignedIn = function () {
        return userSrv.isSignedIn();
@@ -10,5 +10,9 @@ app.controller("navbarCtrl", function ($scope, userSrv, $location, shoppingcartS
 
     $scope.shoppingLength=function() {
       return  shoppingcartSrv.shoppingLength();
+      }
+
+      $scope.clearFilter=function() {
+      $rootScope.queryRecord = "";  
       }
 })

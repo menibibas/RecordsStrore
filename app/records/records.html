@@ -1,17 +1,15 @@
 <div class="container">
     <records-navbar></records-navbar>
     <h1 class="header">Records Available</h1>
-    <div class="row">
+    <div class="row search">
         <div class="col-11">
-          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist" ng-model="queryRecord" ng-show="wasQueryEntered()">
+          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist" ng-model="$root.queryRecord">
         </div>
-        <div class="col-1">
-          <button class="btn btn-primary" ng-show="wasQueryEntered()" ng-click=""><i class="fas fa-search"></i></button>
-        </div>
+        
            
       </div>
     <div class="row">
-        <div class="col-lg-3 col-md-6 col" ng-repeat="record in records | filter:queryRecord">
+        <div class="col-lg-3 col-md-6 col" ng-repeat="record in records | filter: queryRecord">
             <div class="card h-100">
                 <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">
                 <div class="card-body">
@@ -21,10 +19,9 @@
                     
                 </div>
                 <div class="card-footer">
-                   <a href="#!/records" class="btn btn-primary" ng-show="isSignedIn()" ng-click="addItem(record); shoppingLength()"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                   <a href="#!/records" class="btn btn-primary" ng-show="isSignedIn()" ng-click="addItem(record); shoppingLength()"><i class="fas fa-cart-plus"></i> Add to Cart</a>
                    <p class="card-text psize" >{{record.price|currency: "$":2}}</p>
                 </div>
-
             </div>
         </div>
     </div>
