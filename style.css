@@ -85,3 +85,21 @@ table {
 ul > li > img {
     width: 300px;
 }
+
+/* record animation */
+@keyframes record {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate {
+    animation: record 1s linear infinite both;
+    /* animation-name: record;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+
+}
