@@ -10,11 +10,11 @@
     },
     {
         "id": 2, 
-        "bname": "Smashing Pumpkins",
-        "aname": "Gish",
-        "desc": "1st album by the revered band the Smashing Pumpkins",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/SmashingPumpkins-Gish.jpg/220px-SmashingPumpkins-Gish.jpg",
-        "price": "25"
+        "bname": "Rage Against the Machine",
+        "aname": "Rage Against the Machine",
+        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "price": "28"
 
     },
     {
@@ -38,14 +38,13 @@
 
     {
         "id": 5, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Pink Floyd",
+        "aname": "The Final Cut",
+        "desc": "he Final Cut is the twelfth studio album by English rock band Pink Floyd, released on 21 March 1983 in the United Kingdom and on 2 April in the United States through Harvest and Columbia Records. It comprises unused material from the previous Pink Floyd record, The Wall (1979), alongside new material recorded throughout 1982.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/FloydFC-Cover01.jpg/220px-FloydFC-Cover01.jpg",
+        "price": "45"
 
     },
-
     {
         "id": 6, 
         "bname": "Pixies",
@@ -57,113 +56,415 @@
     },
     {
         "id": 7, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
-
+        "bname": "Smashing Pumpkins",
+        "aname": "Gish",
+        "desc": "1st album by the revered band the Smashing Pumpkins",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/SmashingPumpkins-Gish.jpg/220px-SmashingPumpkins-Gish.jpg",
+        "price": "25"
     },
     {
         "id": 8, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "The Rolling Stones",
+        "aname": "Under Cover",
+        "desc": "Undercover is the 17th British and 19th American studio album by The Rolling Stones, released in 1983.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Undercoverstones.jpg/220px-Undercoverstones.jpg",
+        "price": "40"
 
     },
     {
         "id": 9, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "The Cure",
+        "aname": "Three Imaginary Boys",
+        "desc": "Three Imaginary Boys is the debut album by British alternative rock band the Cure, released on 8 May 1979 by record label Fiction. It was later released in the United States, Canada and Australia with a different tracklist as Boys Don't Cry.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/18/TheCureThreeImaginaryBoysalbumcover.jpg",
+        "price": "30"
 
     },
     {
         "id": 10, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "ABBA",
+        "aname": "The Album",
+        "desc": "The Album is the fifth studio album by the Swedish pop group ABBA. It was released in Scandinavia on 12 December 1977 through Polar Music, but due to the massive pre-orders the UK pressing plants were not able to press sufficient copies before Christmas 1977 and so it was not released in the UK until January 1978.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/ABBA_-_The_Album_%28Polar%29.jpg/220px-ABBA_-_The_Album_%28Polar%29.jpg",
+        "price": "25"
 
     },
     {
         "id": 11, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "A-ha",
+        "aname": "Hunting High and low",
+        "desc": "Hunting High and Low is the debut studio album by Norwegian new wave band A-ha. It was released on 1 June 1985 by Warner Bros. Records. The album was a huge commercial success, reaching high positions on charts worldwide and peaking at number 15 on the US Billboard 200, eventually selling more than 11 million units worldwide",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Hunting_High_and_Low.jpg/220px-Hunting_High_and_Low.jpg",
+        "price": "22"
 
     },
     {
         "id": 12, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Beatles",
+        "aname": "Sgt. Pepper's Lonely Hearts Club Band",
+        "desc": "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released on 26 May 1967 in the United Kingdom[nb 1] and 2 June 1967 in the United States, it spent 27 weeks at number one on the UK Albums Chart and 15 weeks at number one in the US.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg/220px-Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg",
+        "price": "40"
 
     },
     {
         "id": 13, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "AC/DC",
+        "aname": "Fly on the Wall",
+        "desc": "Fly on the Wall is the tenth studio album by Australian hard rock band AC/DC, released on 28 June 1985 by Albert Productions, and Atlantic Records. It was the band's ninth internationally released studio album and the tenth to be released in Australia",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fly_On_The_Wall.jpg/220px-Fly_On_The_Wall.jpg",
+        "price": "26"
 
     },
     {
         "id": 14, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Boney M",
+        "aname": "Love for Sale",
+        "desc": "Love for Sale is the second studio album by Euro-Caribbean group Boney M. The album includes the hits 'Ma Baker' and 'Belfast'.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Boney_M._-_Love_For_Sale_%281977%29.jpg/220px-Boney_M._-_Love_For_Sale_%281977%29.jpg",
+        "price": "23"
 
     },
     {
         "id": 15, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Frank Sinatra",
+        "aname": "Frank Sinatra Sings for Only the Lonely",
+        "desc": "Frank Sinatra Sings for Only the Lonely (1958, also known as Sings for Only the Lonely or simply Only the Lonely) is an album by Frank Sinatra.[1]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Sinatraonlythelonely.jpg/220px-Sinatraonlythelonely.jpg",
+        "price": "37"
 
     },
     {
         "id": 16, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Eminem",
+        "aname": "The Slim Shady LP",
+        "desc": "The Slim Shady LP is the second studio album and the major-label debut[1] by American rapper Eminem. It was released on February 23, 1999 by Aftermath Entertainment and Interscope Records. Recorded in Ferndale, Michigan, following Eminem's recruitment by Dr. Dre and Jimmy Iovine, the album features production from Dr. Dre, the Bass Brothers, and Eminem himself.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Eminem_-_The_Slim_Shady_LP_CD_cover.jpg/220px-Eminem_-_The_Slim_Shady_LP_CD_cover.jpg",
+        "price": "25"
 
     },
     {
         "id": 17, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
-        "price": "28"
+        "bname": "Dr. Dre",
+        "aname": "The Chronic",
+        "desc": "The Chronic is the debut studio album by American hip hop recording artist Dr. Dre. It was released on December 15, 1992, by his own record label Death Row Records and distributed by Interscope Records and Priority Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Dr.DreTheChronic.jpg/220px-Dr.DreTheChronic.jpg",
+        "price": "23"
 
     },
     {
         "id": 18, 
-        "bname": "Rage Against the Machine",
-        "aname": "Rage Against the Machine",
-        "desc": "Rage Against the Machine is the eponymous debut studio album by American rock band Rage Against the Machine,[1] released on November 3, 1992 by Epic Records.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "bname": "Guns N' Roses",
+        "aname": "Appetite for Destruction",
+        "desc": "Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses. It was released on July 21, 1987, by Geffen Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg/220px-GunsnRosesAppetiteforDestructionalbumcover.jpg",
+        "price": "32"
+
+    },
+    {
+        "id": 19, 
+        "bname": "Pulp",
+        "aname": "Different Class",
+        "desc": "Different Class is the fifth studio album by English rock band Pulp, released on 30 October 1995 by Island Records. The album was a critical and commercial success, entering the UK Albums Chart at number one and winning the 1996 Mercury Music Prize.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Pulp_-_Different_Class.PNG/220px-Pulp_-_Different_Class.PNG",
+        "price": "22"
+    },
+    {
+        "id": 20, 
+        "bname": "Suede",
+        "aname": "Suede",
+        "desc": "Suede is the debut album by English alternative rock band Suede, released in March 1993 on Nude Records. It was recorded in London at Master Rock studios late 1992 and early 1993 and was produced by Ed Buller.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Suede_%28Suede_album_-_cover_art%29.jpg/220px-Suede_%28Suede_album_-_cover_art%29.jpg",
+        "price": "20"
+    },
+    {
+        "id": 21, 
+        "bname": "The Smiths",
+        "aname": "The Smiths",
+        "desc": "The Smiths is the eponymous debut studio album by English rock band the Smiths, released on 20 February 1984 by Rough Trade Records. After the original production by Troy Tate was felt to be inadequate, John Porter re-recorded the album in London, Manchester and Stockport during breaks in the band's UK tour during September 1983.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/The_Smiths_The_Smiths.jpg/220px-The_Smiths_The_Smiths.jpg",
+        "price": "30"
+    },
+    {
+        "id": 22, 
+        "bname": "Blur",
+        "aname": "The Great Escape",
+        "desc": "The Great Escape is the fourth studio album by the English rock band Blur, released on 11 September 1995 on Food and Virgin Records. The album received near-universal acclaim from critics on release and reached number one in the UK Albums Chart.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Blur_thegreatescape.png/220px-Blur_thegreatescape.png",
+        "price": "27"
+    },
+    {
+        "id": 23, 
+        "bname": "The Charlatans",
+        "aname": "The Charlatans",
+        "desc": "The Charlatans is the fourth album by the British alternative rock band The Charlatans, released on 28 August 1995. It went to the top of the UK Albums Chart the same year. The Charlatans is rated 84 in the Melody Maker's top 100 albums of all-time list from 2000. Select ranked the album at number 17 in its end-of-year list of the 50 best albums of 1995.[4]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Charlatans4thlpcover.jpg/220px-Charlatans4thlpcover.jpg",
+        "price": "24"
+    },
+    {
+        "id": 24, 
+        "bname": "Supergrass",
+        "aname": "Supergrass",
+        "desc": "Supergrass is the third album by the English alternative rock band Supergrass. It was released in the UK on 20 September 1999 and reached #3.[12] It is often referred to as 'the X-ray album', due to the picture on the sleeve. In Australia a free CD was included with some live tracks.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Supergrass_%28album%29.jpg/220px-Supergrass_%28album%29.jpg",
+        "price": "26"
+    },
+    {
+        "id": 25, 
+        "bname": "Bjork",
+        "aname": "Deput",
+        "desc": "Debut is considered the debut studio album by Icelandic recording artist Björk as an international singer,[nb 1] released in July 1993 by One Little Indian and Elektra Entertainment. It was produced by Björk and Nellee Hooper. It was Björk's first recording following the dissolution of her previous band, the Sugarcubes. ",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Bj%C3%B6rk-Debut-1993.png/220px-Bj%C3%B6rk-Debut-1993.png",
+        "price": "31"
+    },
+    {
+        "id": 26, 
+        "bname": "Nick Cave and the Bad Seeds",
+        "aname": "Tender Prey",
+        "desc": "Tender Prey is the fifth studio album by Australian rock band Nick Cave and the Bad Seeds, released on 19 September 1988 on Mute Records. Produced by Flood, the album was recorded during several sessions over the course of four months in West Berlin—where the band were based at the time of its release—and London and dedicated to Fernando Ramos da Silva.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Tenderprey.jpg/220px-Tenderprey.jpg",
+        "price": "35"
+    },
+    {
+        "id": 27, 
+        "bname": "Peter Murphy",
+        "aname": "Deep",
+        "desc": "Deep is the third solo studio album by English musician Peter Murphy. Produced by Simon Rogers, the album was released on 19 December 1989[1] through RCA and Beggars Banquet Records and features contributions from Murphy's backing band, The Hundred Men.[2]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Peter_Murphy-Deep.png/220px-Peter_Murphy-Deep.png",
+        "price": "29"
+    },
+    {
+        "id": 28, 
+        "bname": "The Sisters of Mercy",
+        "aname": "Vision Thing",
+        "desc": "Vision Thing is the third studio album by English gothic rock band the Sisters of Mercy. It was released on 13 November 1990 through Merciful Release and EastWest Records, with Elektra Records handling the US release.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/The_Sisters_of_Mercy_-_Vision_Thing_cover.jpg/220px-The_Sisters_of_Mercy_-_Vision_Thing_cover.jpg",
+        "price": "38"
+    },
+    {
+        "id": 29, 
+        "bname": "Bauhaus",
+        "aname": "Mask",
+        "desc": "Mask is the second studio album by English post-punk band Bauhaus. It was released in 1981 by record label Beggars Banquet.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Bauhaus-Mask.jpg/220px-Bauhaus-Mask.jpg",
+        "price": "35"
+    },
+    {
+        "id": 30, 
+        "bname": "Carter USM",
+        "aname": "30 Something",
+        "desc": "30 Something is the second album by Carter the Unstoppable Sex Machine, released in 1991 on Rough Trade Records. It was recorded in 20 days on 8-track, costing only ₤4,000. The album was given a 10/10 review in NME, which described 30 Something as a 'brilliant, bold record'.[3] It was prefaced with a single 'Anytime Anyplace Anywhere', which was a major indie hit and also included on the album.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/30somethingcarter.jpg/220px-30somethingcarter.jpg",
+        "price": "32"
+    },
+    {
+        "id": 31, 
+        "bname": "Jimmy Hendrix",
+        "aname": "Axis: Bold as Love",
+        "desc": "Axis: Bold as Love is the second studio album by English-American rock band the Jimi Hendrix Experience. It was recorded to fulfill the Experience's contract, which stated that they had to produce two records in 1967.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Axiscover.jpg/220px-Axiscover.jpg",
+        "price": "40"
+    },
+    {
+        "id": 32, 
+        "bname": "Bob Dylan",
+        "aname": "Desire",
+        "desc": "Desire is the 17th studio album by American singer-songwriter Bob Dylan, released on January 5, 1976 by Columbia Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Bob_Dylan_-_Desire.jpg/220px-Bob_Dylan_-_Desire.jpg",
+        "price": "38"
+    },
+    {
+        "id": 33, 
+        "bname": "Dire Straits",
+        "aname": "Dire Straits",
+        "desc": "Dire Straits is the debut studio album by the British rock band Dire Straits released on 7 October 1978 by Vertigo Records internationally and by Warner Bros. Records in the United States.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/DS_Dire_Straits.jpg/220px-DS_Dire_Straits.jpg",
+        "price": "37"
+    },
+    {
+        "id": 34, 
+        "bname": "Soundgarden",
+        "aname": "Down on the Upside",
+        "desc": "Down on the Upside is the fifth studio album by the American rock band Soundgarden, released on May 21, 1996, through A&M Records. It is the band's third album with bassist Ben Shepherd.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Soundgarden-DownOnTheUpside.jpg/220px-Soundgarden-DownOnTheUpside.jpg",
+        "price": "34"
+    },
+    {
+        "id": 35, 
+        "bname": "Metallica",
+        "aname": "Master of Puppets",
+        "desc": "Master of Puppets is the third studio album by American heavy metal band Metallica. It was released on March 3, 1986 by Elektra Records.[1] Recorded at the Sweet Silence Studios with producer Flemming Rasmussen, it was the first Metallica album released on a major record label. Master of Puppets was the band's last album to feature bassist Cliff Burton, who died in a bus accident in Sweden during the album's promotional tour. ",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Metallica_-_Master_of_Puppets_cover.jpg/220px-Metallica_-_Master_of_Puppets_cover.jpg",
+        "price": "35"
+    },
+    {
+        "id": 36, 
+        "bname": "Davie Bowie",
+        "aname": "Honky Dory",
+        "desc": "Hunky Dory is the fourth studio album by the English musician David Bowie, released on 17 December 1971 by RCA Records.[1] It was his first release through RCA, which would be his label for the next decade. Hunky Dory has been described by AllMusic's Stephen Thomas Erlewine as having 'a kaleidoscopic array of pop styles, tied together only by Bowie's sense of vision: a sweeping, cinematic mélange of high and low art, ambiguous sexuality, kitsch, and class'.[2]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/David_Bowie_-_Hunky_Dory.jpg/220px-David_Bowie_-_Hunky_Dory.jpg",
+        "price": "42"
+    },
+    {
+        "id": 37, 
+        "bname": "Lou Reed",
+        "aname": "Transformer",
+        "desc": "Transformer is the second solo studio album by American recording artist Lou Reed. The album is considered an influential landmark of the glam rock genre, anchored by Reed's most successful single, 'Walk on the Wild Side', which touched on controversial topics of sexual orientation and drugs. Produced by David Bowie and arranged by Mick Ronson, the album was released in November 1972 by RCA Records.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Loureedtransformer.jpeg/220px-Loureedtransformer.jpeg",
+        "price": "39"
+    },
+    {
+        "id": 38, 
+        "bname": "Eagles",
+        "aname": "",
+        "desc": "Eagles is the debut studio album by the rock band the Eagles. The album was recorded at London's Olympic Studios with producer Glyn Johns and released in 1972. The album was an immediate success for the young band, reaching No. 22 on the charts and going platinum. Three singles were released from the album, each reaching the Top 40: 'Take It Easy' (number 12), 'Witchy Woman' (number 9), and 'Peaceful Easy Feeling' (number 22). The band, starting with this album, played a major role in popularizing the country rock sound.[2]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/The_Eagles_-_The_Eagles.jpeg/220px-The_Eagles_-_The_Eagles.jpeg",
+        "price": "32"
+    },
+    {
+        "id": 39, 
+        "bname": "Jefferson Airplane",
+        "aname": "Volunteers",
+        "desc": "Volunteers is the fifth studio album by American psychedelic rock band Jefferson Airplane, released in 1969 as RCA Victor LSP-4238, also released in Quadrophonic in 1973 as RCA Quadradisc APD1-0320, using the discrete CD-4 system from JVC.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Jefferson_Airplane-Volunteers_%28album_cover%29.jpg/220px-Jefferson_Airplane-Volunteers_%28album_cover%29.jpg",
+        "price": "30"
+    },
+    {
+        "id": 40, 
+        "bname": "Sonic Youth",
+        "aname": "Dirty",
+        "desc": "Dirty is the seventh studio album by American rock band Sonic Youth, released on July 21, 1992 by DGC Records. The band recorded and co-produced the album with Butch Vig in early 1992 at the Magic Shop studios. The sound on Dirty was inspired by the grunge scene of the time, and was described as avant-rock.[1] Some songs on the album mark the first appearance of three guitars in Sonic Youth songs.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Sonic_youth_dirty_original_album_cover.jpg/220px-Sonic_youth_dirty_original_album_cover.jpg",
+        "price": "30"
+    },
+    {
+        "id": 41, 
+        "bname": "Radiohead",
+        "aname": "The Bends",
+        "desc": "The Bends is the second studio album by the English rock band Radiohead, released on 13 March 1995 by Parlophone in the United Kingdom and Capitol Records in the United States. It was produced by John Leckie, and engineered by Nigel Godrich, who has produced all of Radiohead's subsequent studio albums. It was the first Radiohead album with cover art by Stanley Donwood, who, with singer Thom Yorke, has produced all of Radiohead's artwork since.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Radiohead.bends.albumart.jpg/220px-Radiohead.bends.albumart.jpg",
+        "price": "38"
+    },
+    {
+        "id": 42, 
+        "bname": "Madonna",
+        "aname": "Like a Virgin",
+        "desc": "Like a Virgin is the second studio album by American singer and songwriter Madonna, released on November 12, 1984, by Sire Records. Following the success of her self-titled debut album, Madonna wanted to become the record producer of her next album. However, her label was not ready to give her the artistic freedom and she chose Nile Rodgers instead to produce the album due to his work with David Bowie.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/LikeAVirgin1984.png/220px-LikeAVirgin1984.png",
+        "price": "35"
+    },
+    {
+        "id": 43, 
+        "bname": "Michael Jackson",
+        "aname": "Thriller",
+        "desc": "Thriller is the sixth studio album by American singer Michael Jackson, released on November 30, 1982, in the United States by Epic Records and internationally by CBS Records.[1][2] It explores genres similar to Jackson's previous album, Off the Wall (1979), including pop, post-disco, rock and funk. Recording took place from April to November 1982 at Westlake Recording Studios in Los Angeles, with a production budget of $750,000.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png",
+        "price": "40"
+    },
+    {
+        "id": 44, 
+        "bname": "Nine Inch Nails",
+        "aname": "The Slip",
+        "desc": "The Slip is the seventh studio album by American industrial rock band Nine Inch Nails, released on July 22, 2008 by The Null Corporation. It was their second release in 2008, following their sixth album Ghosts I-IV, released four months prior. The album was produced by frontman Trent Reznor with collaborators Atticus Ross and Alan Moulder.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Nine_Inch_Nails_-_The_Slip.png/220px-Nine_Inch_Nails_-_The_Slip.png",
+        "price": "31"
+    },
+    {
+        "id": 45, 
+        "bname": "Cranberries",
+        "aname": "No Need to Argue",
+        "desc": "No Need to Argue is the second studio album by the Irish rock band The Cranberries, released on 3 October 1994. It is the band's best selling album, and has sold about 17 million copies worldwide.[1] It contains the band's most successful single, 'Zombie'. The album's mood is darker and harsher than that on Everybody Else Is Doing It, So Why Can't We?, released a year before.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/CranberriesNoNeedToArgueAlbumcover.jpg/220px-CranberriesNoNeedToArgueAlbumcover.jpg",
         "price": "28"
-
+    },
+    {
+        "id": 46, 
+        "bname": "Led Zeppeline",
+        "aname": "Led Zeppelin IV",
+        "desc": "The untitled fourth studio album by the English rock band Led Zeppelin, commonly known as Led Zeppelin IV, was released on 8 November 1971 by Atlantic Records. It was produced by guitarist Jimmy Page and recorded between December 1970 and February 1971, mostly in the country house Headley Grange. ",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg/220px-Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+        "price": "40"
+    },
+    {
+        "id": 47, 
+        "bname": "Oasis",
+        "aname": "(What's the Story) Morning Glory?",
+        "desc": "(What's the Story) Morning Glory? is the second studio album by English rock band Oasis, released on 2 October 1995 by Creation Records. It was produced by Owen Morris and the group's guitarist Noel Gallagher. The structure and arrangement style of the album were a significant departure from the group's previous record Definitely Maybe (1994). ",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg/220px-Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg",
+        "price": "35"
+    },
+    {
+        "id": 48, 
+        "bname": "Beatles",
+        "aname": "Revolver",
+        "desc": "Revolver is the seventh studio album by the English rock band the Beatles. Released on 5 August 1966, it was the Beatles' final recording project before their retirement as live performers and marked the group's most overt use of studio technology up to that time, building on the advances of their late 1965 release Rubber Soul.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Revolver.jpg/220px-Revolver.jpg",
+        "price": "42"
+    },
+    {
+        "id": 49, 
+        "bname": "David Bowie",
+        "aname": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+        "desc": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (often shortened to Ziggy Stardust) is the fifth studio album by English musician David Bowie, released on 16 June 1972 in the United Kingdom. It was produced by Bowie and Ken Scott and features contributions from the Spiders from Mars, Bowie's backing band — composed of Mick Ronson, Trevor Bolder and Mick Woodmansey. The album was recorded in Trident Studios, London, like his previous album, Hunky Dory. Most of the album was recorded in November 1971 with further sessions in January and early February 1972.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/ZiggyStardust.jpg/220px-ZiggyStardust.jpg",
+        "price": "41"
+    },
+    {
+        "id": 50, 
+        "bname": "Leonard Cohen",
+        "aname": "I'm Your Man",
+        "desc": "I'm Your Man is the eighth studio album by Leonard Cohen,[2] released in 1988. The album marked Cohen's further move to a more modern sound, with many songs having a synth-oriented production.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/I%27m_Your_Man_-_Leonard_Cohen.jpg/220px-I%27m_Your_Man_-_Leonard_Cohen.jpg",
+        "price": "35"
+    },
+    {
+        "id": 51, 
+        "bname": "The Doors",
+        "aname": "The Doors",
+        "desc": "The Doors is the debut album by the American rock band the Doors, recorded in 1966 at Sunset Sound Recorders, Hollywood, California, it was produced by Paul A. Rothchild and released on January 4, 1967. The album features their breakthrough single 'Light My Fire' and the lengthy song 'The End' with its Oedipal spoken word section.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/TheDoorsTheDoorsalbumcover.jpg/220px-TheDoorsTheDoorsalbumcover.jpg",
+        "price": "40"
+    },
+    {
+        "id": 52, 
+        "bname": "Pink Floyd",
+        "aname": "The Dark Side of the Moon",
+        "desc": "The Dark Side of the Moon is the eighth studio album by English rock band Pink Floyd, released on 1 March 1973 by Harvest Records. Primarily developed during live performances, the band premiered an early version of the record several months before recording began. New material was recorded in two sessions in 1972 and 1973 at Abbey Road Studios in London.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
+        "price": "40"
+    },
+    {
+        "id": 53, 
+        "bname": "Kiss",
+        "aname": "Kiss",
+        "desc": "Kiss is the debut studio album by American rock band Kiss, released on February 8, 1974. Much of the material on the album was written by Gene Simmons and Paul Stanley, as members of their pre-Kiss band Wicked Lester. Simmons estimated that the entire process of recording and mixing took three weeks, while co-producer Richie Wise has stated it took just 13 days.[9]",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Kiss_first_album_cover.jpg/220px-Kiss_first_album_cover.jpg",
+        "price": "32"
+    },
+    {
+        "id": 54, 
+        "bname": "Nirvana",
+        "aname": "Bleach",
+        "desc": "Bleach is the debut studio album by the American rock band Nirvana, released on June 15, 1989 by Sub Pop. The main recording sessions took place at Reciprocal Recording in Seattle, Washington between December 1988 and January 1989.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Nirvana-Bleach.jpg/220px-Nirvana-Bleach.jpg",
+        "price": "31"
+    },
+    {
+        "id": 55, 
+        "bname": "R.E.M",
+        "aname": "Green",
+        "desc": "Green is the sixth studio album by American rock band R.E.M., released on November 7, 1988 by Warner Bros. Records. Produced by the band and Scott Litt, it continued to explore political issues both in its lyrics and packaging. The band experimented on the album, writing major-key rock songs and incorporating new instruments into their sound including the mandolin, as well as switching their original instruments on other songs.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/R.E.M._-_Green.jpg/220px-R.E.M._-_Green.jpg",
+        "price": "32"
+    },
+    {
+        "id": 56, 
+        "bname": "The Rolling Stones",
+        "aname": "Sticky Fingers",
+        "desc": "Sticky Fingers is the ninth British and eleventh American studio album by the English rock band The Rolling Stones, released in April 1971. It is the band's first album of the decade and the first release on the band's new label Rolling Stones Records, after having been contracted since 1963 with Decca Records in the UK and London Records in the US. It is also Mick Taylor's first full-length appearance on a Rolling Stones album and the first Rolling Stones album not to feature any contributions from guitarist and founder Brian Jones.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/RSSF71.jpg/220px-RSSF71.jpg",
+        "price": "38"
     }
-
-
+    
     
 ]
