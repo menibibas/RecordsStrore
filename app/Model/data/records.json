@@ -3,7 +3,7 @@
         "id": 1, 
         "bname": "Smashing Pumpkins",
         "aname": "Siamese Dream",
-        "desc": "2nd album by the revered band the Smashing Pumpkins",
+        "desc": "Siamese Dream is the second studio album by American alternative rock band The Smashing Pumpkins, released on July 27, 1993 on Virgin Records. The album fused diverse influences such as shoegazing,[4] dream pop,[5] and heavy metal,[4] and has been described as 'closer to progressive rock than to punk or grunge.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/220px-SmashingPumpkins-SiameseDream.jpg",
         "price": "30"
        
@@ -21,7 +21,7 @@
         "id": 3, 
         "bname": "Pearl Jam",
         "aname": "Ten",
-        "desc": "1st album by the revered band Pearl jam",
+        "desc": "Ten is the debut studio album by American rock band Pearl Jam, released on August 27, 1991 through Epic Records. Following the disbanding of bassist Jeff Ament and guitarist Stone Gossard's previous group Mother Love Bone, the two recruited vocalist Eddie Vedder, guitarist Mike McCready, and drummer Dave Krusen to form Pearl Jam in 1990.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/PearlJam-Ten2.jpg/220px-PearlJam-Ten2.jpg",
         "price": "32"
 
@@ -58,7 +58,7 @@
         "id": 7, 
         "bname": "Smashing Pumpkins",
         "aname": "Gish",
-        "desc": "1st album by the revered band the Smashing Pumpkins",
+        "desc": "Gish is the debut studio album by American alternative rock band The Smashing Pumpkins, released in May 1991 through Caroline Records. Frontman Billy Corgan has variously described Gish as a 'very spiritual album' and 'an album about spiritual ascension'",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/SmashingPumpkins-Gish.jpg/220px-SmashingPumpkins-Gish.jpg",
         "price": "25"
     },
