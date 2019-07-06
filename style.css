@@ -92,6 +92,11 @@ ul > li > img {
     margin-bottom: 50px; 
 }
 
+.form-check {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
 /* record animation */
 @keyframes record {
     from {

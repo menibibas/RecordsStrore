@@ -52,6 +52,8 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
         return false;
       }
    };
+
+   
   //   if (record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
   //   record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
   //   return $location.path("/records");

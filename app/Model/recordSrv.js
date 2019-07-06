@@ -1,12 +1,13 @@
 app.factory("recordSrv", function ($q, $http, $log, userSrv) {
 
-    function Record(id, bname, aname, desc, image, price) {
+    function Record(id, bname, aname, desc, image, price, genre) {
         this.id = id;
         this.bname = bname;
         this.aname = aname;
         this.desc = desc;
         this.image = image;
         this.price = price;
+        this.genre = genre;
       }
     console.log(Record);
       function getRecords () {
@@ -18,7 +19,7 @@ app.factory("recordSrv", function ($q, $http, $log, userSrv) {
         
         for (var i = 0; i < res.data.length; i++) {
           var record = new Record(res.data[i].id, res.data[i].bname, res.data[i].aname,
-            res.data[i].desc, res.data[i].image, res.data[i].price);
+            res.data[i].desc, res.data[i].image, res.data[i].price, res.data[i].genre );
           records.push(record);
           }
      console.log(getRecords)

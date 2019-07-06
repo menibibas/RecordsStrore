@@ -1,37 +1,75 @@
 <div class="container">
-    <records-navbar></records-navbar>
-    <h1 class="header">Records Available</h1>
-    <div class="row search">
-        <div class="col-11">
-          <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist" ng-model="$root.queryRecord">
-        </div>
-        
-           
-      </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-6 col" ng-repeat="record in records | filter: queryRecord">
-            <div class="card h-100">
-                <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">{{record.bname}}</h4>
-                    <h6 class="card-title">{{record.aname}}</h6>
-                    <p class="card-text">{{record.desc}}</p>
-                    
-                </div>
-                <div class="card-footer">
-                   <a href="#!/records" class="btn btn-primary" ng-show="isSignedIn()" ng-click="addItem(record); shoppingLength()"><i class="fas fa-cart-plus"></i> Add to Cart</a>
-                   <p class="card-text psize" >{{record.price|currency: "$":2}}</p>
-                </div>
-            </div>
-        </div>
+  <records-navbar></records-navbar>
+  <h1 class="header">Records Available</h1>
+  <div class="row search">
+    <div class="col-11">
+      <input class="form-control wide" type="text" placeholder="Enter Record Name or Artist"
+        ng-model="$root.queryRecord">
     </div>
-    <nav aria-label="Page navigation example" class="page">
-            <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-          </nav>
+    <div class="form-check" ng-model="orderProp">
+      <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Classic Rock
+      </label>
+    </div>
+    <div class="form-check" ng-model="orderProp">
+      <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck2">
+      <label class="form-check-label" for="defaultCheck2">
+        Alternative Rock
+      </label>
+    </div>
+    <div class="form-check" ng-model="orderProp">
+      <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        80's music
+      </label>
+    </div>
+    <div class="form-check" ng-model="orderProp">
+        <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck2">
+        <label class="form-check-label" for="defaultCheck2">
+          70's music
+        </label>
+      </div>
+    <div class="form-check" ng-model="orderProp">
+      <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck2">
+      <label class="form-check-label" for="defaultCheck2">
+        Britpop
+      </label>
+    </div>
+    <div class="form-check" ng-model="orderProp">
+      <input class="form-check-input" type="checkbox" value="genre" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        R&B and Rap
+      </label>
+      
+    </div>
+   
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col" ng-repeat="record in records | filter: queryRecord | orderBy : orderProp ">
+      <div class="card h-100">
+        <img class="card-img-top" ng-src="{{record.image}}" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">{{record.bname}}</h4>
+          <h6 class="card-title">{{record.aname}}</h6>
+          <p class="card-text">{{record.desc}}</p>
+
+        </div>
+        <div class="card-footer">
+          <a href="#!/records" class="btn btn-primary" ng-show="isSignedIn()"
+            ng-click="addItem(record); shoppingLength()"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+          <p class="card-text psize">{{record.price|currency: "$":2}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example" class="page">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
 </div>
