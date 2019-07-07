@@ -1,29 +1,6 @@
 app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $location, shoppingcartSrv, $rootScope) {
 
-  // function Record(id, bname, aname, desc, image, price) {
-  //     this.id = id;
-  //     this.bname = bname;
-  //     this.aname = aname;
-  //     this.desc = desc;
-  //     this.image = image;
-  //     this.price = price;
-  //   }
-
-  //   $scope.records = [];
-  //   $http.get("app/Model/data/records.json").then(function(res) {
-  //     // on success
-  //     for (var i = 0; i < res.data.length; i++) {
-  //       var record = new Record(res.data[i].id, res.data[i].bname, res.data[i].aname,
-  //         res.data[i].desc, res.data[i].image, res.data[i].price);
-  //         $scope.records.push(record);
-  //       }
-  //   }, function(err) {
-  //     console.error(err);
-
-  //   })
-
-  // $scope.wasQueryEntered =   false;
-  $scope.isSignedIn = function () {
+    $scope.isSignedIn = function () {
     return userSrv.isSignedIn();
   }
   $scope.signoff = function () {
@@ -40,18 +17,51 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
     shoppingcartSrv.addItem(record);
   }
 
+  $scope.classicrock = false;
+  $scope.alternativerock = false;
+  $scope.eighties = false;
+  $scope.seventies = false;
+  $scope.britpop = false;
+  $scope.rbandrap = false;
+
+  
+  function isFilteredByCategory(record) {
+    if ($scope.classicrock && record.genre.includes("Classic Rock") || 
+    $scope.alternativerock && record.genre.includes("Alternative Rock") ||
+    $scope.eighties && record.genre.includes("80's Music") ||
+    $scope.seventies && record.genre.includes("70's Music") ||
+    $scope.britpop && record.genre.includes("Britpop") ||
+    $scope.rbandrap && record.genre.includes("R&B and Rap")
+    )
+
+    {
+          return true;
+    }
+         else if (!$scope.classicrock && !$scope.alternativerock && !$scope.eighties
+        && !$scope.seventies && !$scope.britpop && !$scope.rbandrap ) {
+          return true;
+        } else {
+          return false
+        }
+      }
+
+
 
   $scope.filterRecord = function (record) {
+
+    if (!isFilteredByCategory(record)) {
+      return false;
+    }
 
     if (!$rootScope.queryRecord) {
       return true;
     } else {
-      
-      if (record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
-        record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())|| 
-        record.genre.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
 
-        // $scope.wasQueryEntered =   true;
+      if (record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
+        record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) /*||
+    record.genre.toLowerCase().includes($rootScope.queryRecord.toLowerCase())*/)  {
+
+       
         return true;
       }
       else {
@@ -62,23 +72,5 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
 
   };
 
-
-  //   if (record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
-  //   record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
-  //   return $location.path("/records");
-  // } else {
-  //   return false;
-  // }
-  // }  
-
-  // alert($rootScope.queryRecord);
-
-  // shoppingcartSrv.addItem(record).then(function(newItem){
-  //     $log.info("new item was added to cart: " + JSON.stringify(newItem));
-  //     shoppingcartSrv.getActiveUserShoppingcarts().then(function(shoppingcarts) {
-  //         $scope.shoppingcarts = shoppingcarts;
-  //       })
-  // })
-  // $location.path("/shoppingcart.html")
-
+  
 });
