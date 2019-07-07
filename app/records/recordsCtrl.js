@@ -23,7 +23,7 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
   //   })
 
   // $scope.wasQueryEntered =   false;
-   $scope.isSignedIn = function () {
+  $scope.isSignedIn = function () {
     return userSrv.isSignedIn();
   }
   $scope.signoff = function () {
@@ -40,20 +40,29 @@ app.controller("recordsCtrl", function ($scope, $http, recordSrv, userSrv, $loca
     shoppingcartSrv.addItem(record);
   }
 
-  
+
   $scope.filterRecord = function (record) {
-    
-      if ($rootScope.queryRecord.toLowerCase() === $scope.record.aname.toLowerCase() ||
-      $rootScope.queryRecord.toLowerCase() === $scope.record.bname.toLowerCase()) {
+
+    if (!$rootScope.queryRecord) {
+      return true;
+    } else {
+      
+      if (record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
+        record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())|| 
+        record.genre.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
+
         // $scope.wasQueryEntered =   true;
-        return record;
+        return true;
       }
       else {
         return false;
       }
-   };
 
-   
+    }
+
+  };
+
+
   //   if (record.bname.toLowerCase().includes($rootScope.queryRecord.toLowerCase()) ||
   //   record.aname.toLowerCase().includes($rootScope.queryRecord.toLowerCase())) {
   //   return $location.path("/records");
