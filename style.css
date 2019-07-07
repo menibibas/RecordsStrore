@@ -6,7 +6,7 @@
     }
 
     .search {
-        width: 60%;
+        width: 80%;
         margin: auto;
         /*border: solid;*/
        }
@@ -33,9 +33,9 @@
     justify-content: center;
 }
 
-.wide {
-    width: 580px;
-}
+/* .wide {
+    width: 50%;
+} */
 
 .small {
     width: 45px;
