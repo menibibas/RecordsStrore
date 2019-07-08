@@ -22,6 +22,9 @@ app.config(function ($routeProvider) {
         }).when("/checkout", {
             templateUrl: "app/checkoutcart/checkoutcart.html",
             controller: "checkoutcartCtrl"
+        }).when("/contactus", {
+            templateUrl: "app/contactus/contactus.html",
+            controller: "contactusCtrl"
         })
 })
 
