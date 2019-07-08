@@ -122,3 +122,12 @@ ul > li > img {
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
+/* signup design */
+
+.signup {
+    max-width: 550px; 
+    margin: auto;
+    margin-top: 50px;
+    }
+
